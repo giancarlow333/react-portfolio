@@ -204,6 +204,26 @@
         display: inline-block;
         margin: 0 15px 0 15px;
     }
+
+    /* CONTACT FORM SECTION */
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input, textarea {
+        margin: 5px;
+        width: 50%;
+    }
+    
+    button {
+        margin: 5px;
+        padding: 5px;
+        width: 50%;
+        background-color: var(--darkest);
+        color: var(--lighter);
+        border: 3px solid var(--lighter);
+    }
     
     /* RESPONSIVE DESIGN SECTION
      * Resize/position elements on smaller screens
@@ -251,5 +271,8 @@
             width: 90%;
             margin-left: 0px;
             margin-top: 10px;
+        }
+        input, textarea, button {
+            width: 100%;
         }
     }

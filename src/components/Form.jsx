@@ -66,24 +66,24 @@ function Form() {
     <div>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        <input
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="Name"
         />
         <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="Email"
+        />
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="textarea"
+          type="text"
           placeholder="Message"
         />
         <button type="submit">
