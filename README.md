@@ -24,14 +24,14 @@ reloading and that title is highlighted
 WHEN I load the portfolio the first time
 THEN the About Me title and section are selected by default
 WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
+xxx THEN I see a recent photo or avatar of the developer and a short bio about them
 WHEN I am presented with the Portfolio section
 THEN I see titled images of six of the developer’s applications with links to both the
 deployed applications and the corresponding GitHub repository
 WHEN I am presented with the Contact section
 THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
+xxx WHEN I move my cursor out of one of the form fields without entering text
+xxx THEN I receive a notification that this field is required
 WHEN I enter text into the email address field
 THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
@@ -45,19 +45,12 @@ profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
 As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
 
-* Use mobile-first design.
-* Choose a color palette so that your site doesn't just look like the default Bootstrap theme or an unstyled HTML site. Look into resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
-* Make sure the font size is large enough to read and that the colors don't cause eye strain.
 * Consider using animations and React component libraries. Note that this will not affect your grade, but it may impact how potential employers gauge your knowledge.
 
 ## Technical Acceptance Criteria: 40%
 
 Satisfies all of the preceding acceptance criteria plus the following:
 
-* Application must use React to render content.
-* Application has a single Header component that appears on multiple pages, with a Navigation component within it that uses react-router-dom to render About Me, Portfolio, Contact, and Resume sections.
-* Application has a single Project component that’s used multiple times in the Portfolio section.
-* Application has a single Footer component that appears on multiple pages.
 * Application must be deployed to Netlify.
 
 ## Code Sources
