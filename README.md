@@ -63,5 +63,10 @@ Satisfies all of the preceding acceptance criteria plus the following:
 ## Code Sources
 
 * The following files contain code largely or entirely taken from class activity 20.23: package.json, vite.config, index.html, [App.jsx](./src/App.jsx), [main.jsx](./src/main.jsx), [Navigation.jsx](./src/components/Navigation.jsx)
+* https://stackoverflow.com/questions/67578409/check-prop-values-before-loading-component for if prop = something return x.  User [psdr03](https://stackoverflow.com/users/2079976/psdr03).
 * Uses FontAwesome icons; TODO: Use their React module
 * TODO: Look up looping over array of props objects
+
+## HEADING
+
+* For a project with no live version (i.e. a console application), `Portfolio.jsx` uses the value `<Project livelink="NULL" />`.
