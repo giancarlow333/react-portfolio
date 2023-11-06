@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/Home';
+import About from './pages/About';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <About />,
       }/*,
       {
         path: '/About',
