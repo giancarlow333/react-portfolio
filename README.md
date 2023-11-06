@@ -62,4 +62,5 @@ Satisfies all of the preceding acceptance criteria plus the following:
 
 ## Code Sources
 
-The following files contain code largely or entirely taken from class activity 20.23: package.json, vite.config, index.html, 
+* The following files contain code largely or entirely taken from class activity 20.23: package.json, vite.config, index.html, [App.jsx](./src/App.jsx), [main.jsx](./src/main.jsx)
+* Code in  comes from class activity 
