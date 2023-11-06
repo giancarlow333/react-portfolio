@@ -3,7 +3,7 @@ export default function Resume() {
       <>
         <h1 className="section-header">RESUME</h1>
         <section className="section-contents">
-            <p><a href="../public/docs/Giancarlo_Whitaker_Resume.docx">Download my resume</a>!</p>
+            <p><a href="/docs/Giancarlo_Whitaker_Resume.docx">Download my resume</a>!</p>
             <h2>Proficiencies</h2>
             
             <h3>Front-end proficiencies</h3>
