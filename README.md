@@ -59,3 +59,7 @@ Satisfies all of the preceding acceptance criteria plus the following:
 * Application has a single Project component that’s used multiple times in the Portfolio section.
 * Application has a single Footer component that appears on multiple pages.
 * Application must be deployed to Netlify.
+
+## Code Sources
+
+The following files contain code largely or entirely taken from class activity 20.23: package.json, vite.config, index.html, 
