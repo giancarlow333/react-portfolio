@@ -1,8 +1,8 @@
 export default function About() {
     return (
       <>
-        <h2>About Me</h2>
-        <p>
+        <h2 className="section-header">About Me</h2>
+        <p className="section-contents">
         Hi, I'm Giancarlo. I'm a web developer and statistician by day and a writer by night. I have a
         passion for data and analytics, which I use to create powerful websites and applications. At the
         same time, I'm also an avid reader and storyteller who loves crafting stories that explore the
