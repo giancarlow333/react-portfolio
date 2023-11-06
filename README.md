@@ -49,9 +49,7 @@ profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
 ## Deployment
 
-Satisfies all of the preceding acceptance criteria plus the following:
-
-* Application must be deployed to Netlify.
+Application is deployed to Netlify [here](https://giancarlo-whitaker-profile.netlify.app/).
 
 ## Code Sources
 
