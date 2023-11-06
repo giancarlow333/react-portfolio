@@ -195,7 +195,19 @@
         margin-top: 10px;
         color: var(--darkest);
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
+    ul.footer-list {
+        list-style-type: none;
+        padding: 0px;
+    }
+    
+    ul.footer-list li {
+        display: inline-block;
+        margin: 0 15px 0 15px;
     }
     
     /* RESPONSIVE DESIGN SECTION
