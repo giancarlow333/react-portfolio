@@ -168,21 +168,17 @@
     }
     
     .card-text p {
-        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    /* We want THESE links to be obvious */
+    .card-text a {
+        text-decoration: underline;
     }
     
     /* This style makes the first card larger than the rest */
     .starter-card {
         grid-column-start: span 3;
-    }
-    
-    /* Make the cards glow */
-    .card {
-        transition: all 0.5s ease-in-out;
-    }
-    
-    .card:hover {
-        box-shadow: inset 0px 0px 8px var(--lighter), 0 0 15px var(--lighter);
     }
     
     /* Styles for the footer of the website */

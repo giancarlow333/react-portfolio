@@ -9,7 +9,7 @@ export default function Portfolio() {
             imgurl="https://giancarlow333.github.io/portfolio/assets/img/solar_system_diagrammer.png"
             name="Solar System Diagram Generator"
             text="JavaScript/SVG"
-            github="https://giancarlow333.github.io/solar-system-diagrammer/"
+            github="https://github.com/giancarlow333/solar-system-diagrammer"
             livelink="https://giancarlow333.github.io/solar-system-diagrammer/"
           />
         </section>
