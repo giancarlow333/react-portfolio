@@ -44,7 +44,8 @@
         padding: 0px;
     }
     
-    nav ul li {
+    nav ul li.nav-item {
+        background-color: var(--dark);
         display: inline-block;
         margin: 0 15px 0 15px;
     }
@@ -57,6 +58,19 @@
         margin-top: 15px;
         background-size: cover;
         background-position: center;
+    }
+
+    /* Hyperlink styles for navbar
+     * The active nav section needs to be darker ("highlighted")
+     */
+    a.nav-link {
+        color: var(--lighter);
+        text-decoration: none;
+    }
+    
+    .active {
+        background-color: var(--darker);
+        text-decoration: none;
     }
     
     /* Hyperlink styles

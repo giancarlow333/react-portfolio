@@ -7,7 +7,7 @@ function Navigation() {
   
     return (
       <ul>
-        <li>
+        <li className="nav-item">
           <Link
             to="/"
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"
