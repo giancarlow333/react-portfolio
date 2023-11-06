@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <Header />
+      <div className='header-image'></div>
       <main>
         <Outlet />
       </main>

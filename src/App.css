@@ -51,11 +51,10 @@
     }
     
     .header-image {
-        background-image: url("./img/pexels-instawalli-169789.jpg");
+        background-image: url("./assets/pexels-instawalli-169789.jpg");
         height: 250px;
         width: 100%;
-        margin-bottom: 30px;
-        margin-top: 15px;
+        margin-top: 10px;
         background-size: cover;
         background-position: center;
     }
