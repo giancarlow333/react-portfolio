@@ -63,6 +63,7 @@ Satisfies all of the preceding acceptance criteria plus the following:
 ## Code Sources
 
 * The following files contain code largely or entirely taken from class activity 20.23: package.json, vite.config, index.html, [App.jsx](./src/App.jsx), [main.jsx](./src/main.jsx), [Navigation.jsx](./src/components/Navigation.jsx)
+* Code in [Form.jsx](./src/components/Form.jsx) was largely taken from class activity 20.16.
 * https://stackoverflow.com/questions/67578409/check-prop-values-before-loading-component for if prop = something return x.  User [psdr03](https://stackoverflow.com/users/2079976/psdr03).
 * Uses FontAwesome icons; TODO: Use their React module
 * TODO: Look up looping over array of props objects
